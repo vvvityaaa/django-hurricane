@@ -136,7 +136,8 @@ There are a couple of command options:
 |--req-queue-len   | Threshold of length of queue of request, which is considered for readiness probe | 
 |--startup-probe   | The exposed path (default is /startup) for probes to check startup |  
 |--readiness-probe | The exposed path (default is /ready) for probes to check readiness |  
-|--liveness-probe  | The exposed path (default is /alive) for probes to check liveness |  
+|--liveness-probe  | The exposed path (default is /alive) for probes to check liveness |
+|--webhook-url     | Url, which should receive a webhook request |
 
 #### Probes and the System Check Framework
 

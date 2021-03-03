@@ -72,6 +72,8 @@ There are a couple of command options:
 +------------------+-------------------------------------------------------------------------------------+
 | --command        | Repetitive command for adding execution of management commands before serving       |
 +------------------+-------------------------------------------------------------------------------------+
+|--webhook-url     | Url, which should receive a webhook request                                         |
++------------------+-------------------------------------------------------------------------------------+
 
 
 **Probes and the System Check Framework**
